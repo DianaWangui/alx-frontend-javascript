@@ -2,9 +2,9 @@ export default function getResponseFromAPI() {
     return new Promise((resolve, reject) => {
         const myresponse = true;
         if (myresponse) {
-            resolve();
+            resolve('s');
         } else {
-            reject();
+            reject(new Error('error'));
         }
         
     });
