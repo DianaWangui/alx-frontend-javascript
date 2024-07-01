@@ -10,7 +10,6 @@ export default function handleProfileSignup() {
       })
       .catch(() => {
         console.log('Signup system offline');
-        reject(new Error('Signup system offline'));
       });
   });
 }
